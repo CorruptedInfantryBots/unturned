@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  unturned:
+    build: ./unturned
+    volumes:
+      - ./data:/home/steam/Unturned
